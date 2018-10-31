@@ -9,7 +9,7 @@ Outputs a CSV file containing the headline and URL of each `<h2>` heading on the
 Here's how to run `nytimes.py`:
 
 ```
-$ pip install bs4 unicodecsv
+$ pip install bs4 unicodecsv --user
 $ curl -O https://raw.githubusercontent.com/organizer-network/scrapers/master/nytimes.py
 $ python nytimes.py
 ```
