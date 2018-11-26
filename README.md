@@ -14,4 +14,20 @@ $ curl -O https://raw.githubusercontent.com/organizer-network/scrapers/master/ny
 $ python nytimes.py
 ```
 
+The underlying library used here is called [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/).
+
 Note: if these commands give you trouble, you may want to try SSHing into the server before you run it. The Python package manager, `pip`, is rather cranky.
+
+## instagram.js
+
+Outputs a list of Instagram post URLs from a specific Instagram account.
+
+Here's how to install and run `instagram.js`
+
+```
+$ cd instagram
+$ npm install
+$ node instagram.js @user
+```
+
+The underlying library used here is called [Puppeteer](https://pptr.dev/).
